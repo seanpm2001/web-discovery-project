@@ -22,10 +22,6 @@
     "url": "https://github.com/brave/web-discovery-project/issues"
   },
   "main": "./build/index.js",
-  "files": [
-    "build",
-    "package.json"
-  ],
   "publishConfig": {
     "access": "public"
   },
@@ -48,7 +44,7 @@
     "node-forge": "1.2.1",
     "ansi-regex": "5.0.1"
   },
-  "devDependencies": {
+  "dependencies": {
     "@babel/core": "7.16.7",
     "@babel/plugin-proposal-class-properties": "7.16.7",
     "@babel/plugin-proposal-dynamic-import": "7.16.7",
@@ -116,9 +112,7 @@
     "watch-detector": "1.0.1",
     "web-ext": "6.6.0",
     "webpack": "5.64.4",
-    "ws": "8.4.0"
-  },
-  "dependencies": {
+    "ws": "8.4.0",
     "@cliqz/url-parser": "1.1.4",
     "abortcontroller-polyfill": "1.7.3",
     "anonymous-credentials": "https://github.com/human-web/anonymous-credentials/releases/download/1.0.0/anonymous-credentials-1.0.0.tgz",

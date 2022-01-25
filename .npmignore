@@ -1,0 +1,6 @@
+# this file exists so that the build directory will not be excluded for npm publish
+# via the .gitignore file
+/brave
+/testem.log
+/mocha.log
+/.eslintcache
