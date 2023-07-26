@@ -1,6 +1,6 @@
 {
   "name": "web-discovery-project",
-  "version": "1.1.60",
+  "version": "1.1.61",
   "description": "Standalone Web Discovery Project package and extension",
   "scripts": {
     "lint": "node fern.js lint",
@@ -134,7 +134,7 @@
     "fast-json-patch": "3.1.1",
     "jsonwebtoken": "9.0.0",
     "xml2js": "0.5.0",
-    "cacheable-request": "10.2.7",
+    "cacheable-request": "10.2.13",
     "socket.io": "4.6.1"
   },
   "auto": {
